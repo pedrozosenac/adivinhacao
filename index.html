@@ -12,7 +12,7 @@
         <h1>Jogo de Adivinhação</h1>
         <p class="fonte">Advinhe o número entre 0 e 10</p>
         <form id="formAdivinhacao">
-            <input class="" type="number" id="numeroJogado" min="0" max="10" required>
+            <input class="" type="number" id="numeroJogado" min="0" max="10" required oninvalid="this.setCustomValidity('Por favor, insira um número entre 0 e 10.')">
             <button class="glow-on-hover1" type="submit" id="adivinhar">Adivinhar</button>
             
             <button class="glow-on-hover2" type="button" id="reiniciarJogo">Reiniciar</button>
